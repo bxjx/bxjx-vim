@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/bj/svn/jnsbridge-trunk/db/migrate'
-let g:netrw_dirhist_2='/Users/bj/svn/jnsbridge-trunk/features/step_definitions'
-let g:netrw_dirhist_3='/Users/bj/svn/jnsbridge-trunk/public/javascripts'
-let g:netrw_dirhist_4='/Users/bj/svn/jnsbridge-trunk/db/migrate'
