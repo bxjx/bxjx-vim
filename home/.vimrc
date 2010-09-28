@@ -1,13 +1,15 @@
-" Thinks i'm always forgetting:
+" Things i'm always forgetting:
 " gj moves down to next wrapped line (same with g$ etc) - this is now default!
 " gq3j gq reformats the line - alias to <leader>q
-" <leader>ci will comment out selected text
+" <leader>cs will comment out selected text
 " ead expands each with block, see also eai, cla
 " mA sets a global mark. 'A will return to it
 
 " Largely derived from http://stevelosh.com/blog/2010/09/coming-home-to-vim/
 
-" pathogen setup
+" pathogen setup. hmm.. pathogen isn't playing well with my install.
+" investigate later. Seems like people are distributing with vim bundles more
+" and more
 "filetype off
 "call pathogen#runtime_append_all_bundles()
 "call pathogen#helptags()
@@ -42,7 +44,7 @@ set ruler " show coords
 set backspace=indent,eol,start " backspace over anything
 set laststatus=2 " always a status line
 " option to use relative numbers, still playing with this.
-set relativenumber 
+set relativenumber " I'm getting into this
 set undofile " I LOVE THIS
 
 " change leader from \ to ,
