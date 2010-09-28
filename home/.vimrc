@@ -111,8 +111,8 @@ nnoremap <leader>q gqip
 nnoremap <leader>v V`]
 
 " Backups
-set backupdir=~/.vim/tmp/backup// " backups
-set directory=~/.vim/tmp/swap//   " swap files
+set backupdir=~/.tmp/backup// " backups
+set directory=~/.tmp/swap//   " swap files
 set backup                        " enable backups
 
 " colour!
