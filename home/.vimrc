@@ -143,3 +143,6 @@ cmap w!! w !sudo tee % >/dev/null
 " toggle mouse. hmm.. mouse=a doesn't do shit. maybe term settings?
 "noremap <F5> :call <SID>ToggleMouse()<CR>
 "inoremap <F5> <Esc>:call <SID>ToggleMouse()<CR>a
+
+" make a better status line with some git info in it
+set statusline=%F%m%r%h%w\ [POS=%04l,%04v][%p%%]\ [%{fugitive#statusline()}]
